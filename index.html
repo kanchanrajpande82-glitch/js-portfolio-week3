@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My JS Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Welcome to My Portfolio</h1>
+
+  <p id="aboutText">This is my JavaScript portfolio project.</p>
+
+  <button onclick="changeText()">Change Text</button>
+  <button onclick="toggleDarkMode()">Dark Mode</button>
+
+  <h2>Contact Me</h2>
+  <form onsubmit="return validateForm()">
+    <input type="email" id="email" placeholder="Enter email"><br><br>
+    <textarea id="message" placeholder="Enter message"></textarea><br><br>
+    <button type="submit">Submit</button>
+  </form>
+
+  <p id="error"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
